@@ -1,0 +1,418 @@
+/* General CSS */
+body {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+hr {
+    border-color: cornflowerblue;
+}
+
+/* Changed bootstrap classes */
+.col-sm-3, .col-sm-4, .col-sm-8, .col-sm-9, .col-sm-12{
+    padding: 0px;
+}
+.navbar{
+    margin-bottom: 0;
+    margin-top: 27px;
+}
+.navbar-nav{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-nav > li > a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-group-item > a {
+    color: black;
+    display: block;
+}
+
+.list-group-item:hover {
+    background-color: lightgrey;
+}
+
+.modal-body > h2, .modal-body > h3 {
+    margin-top: 0px;
+}
+
+/* My classes */
+.datasetPanelBody{
+    background-color: cornflowerblue;
+    padding: 10px;
+    /*overflow: scroll;*/
+}
+
+.mapPanelBody{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.policyPanelBody{
+    background-color: cornflowerblue;
+    padding: 0;
+    /*overflow: scroll;*/
+}
+
+.box{
+    height: 1em;
+    margin-bottom: 1em;
+}
+.box1,.box2,.box3,.box4 {
+    border: solid thin;
+    height: 1em;
+    width: 1em;
+}
+
+.boxTitle1,.boxTitle2,.boxTitle3,.boxTitle4  {
+    margin-left: 1em ;
+    height: 1em;
+}
+
+.box1{
+    background: #0CB8CA;
+}
+.box2{
+    background: #E9120C;
+}
+.box3 {
+    background: #FC7802;
+}
+.box4 {
+    background: #3C9F0F;
+}
+
+.box1, .boxTitle1{
+    display: inline-block;
+}
+.box2, .boxTitle2{
+    display: inline-block;
+}
+.box3, .boxTitle3 {
+    display: inline-block;
+}
+.box4, .boxTitle4 {
+    display: inline-block;
+}
+
+.radio {
+
+}
+
+/* ID section */
+#aologo{
+    text-align: center;
+}
+
+#datasetContainer {
+    padding-right: 0px;
+    height: 600px;
+}
+
+#statsContainer {
+    padding-right: 0px;
+    height: 600px;
+}
+
+#mapContainer {
+    padding: 0px;
+}
+
+#datasetList {
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 4px;
+    height: 525px;
+    overflow: scroll;
+}
+
+#statsList {
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 4px;
+    height: 525px;
+}
+
+#policyList {
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 590px;
+    overflow: scroll;
+}
+
+#map
+{
+    height:600px;
+    background-color: #CCC;
+    border: solid thin;
+}
+
+#mapLegend {
+    height: 21%;
+    margin-bottom: .25em;
+}
+
+#mapLegendBody{
+    padding: .5em;
+}
+
+#mapLegendBody > h4 {
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#datasetHeading > h3{
+    margin-bottom: 0;
+    color: white;
+    font-family: "Trebuchet MS";
+}
+
+#legend{
+    padding-top: 7.5px;
+    padding-left: 0em;
+    margin-left: 0em;
+
+
+}
+
+#mapFilter {
+    height: 78.5%;
+}
+
+#mapFilterBody {
+    padding: .2em .5em .5em .5em;
+    height: 100%;
+    overflow: scroll;
+}
+
+#mapFilterBody > h4 {
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.checkboxes {
+    margin-left: 1em;
+    margin-top: .25em;
+}
+
+.checkbox {
+    padding-left: 20px;
+}
+
+#filterbar{
+    background-color: cornflowerblue;
+    padding-right: .5em;
+    padding-left: 0;
+    height: 600px;
+}
+
+#filterLablel {
+    padding-left: 5px;
+}
+
+#sortingbar{
+    background-color: cornflowerblue;
+    padding: .25em;
+    height: 600px;
+}
+
+#datasetHeading {
+    background-color: cornflowerblue;
+    border-bottom: none;
+    padding-bottom: 0px;
+    display: block;
+    text-align: right;
+}
+
+#topCheckbox{
+    margin-top: 0;
+}
+
+#weatherOverlay {
+    padding: .25em 0 .25em 0;
+}
+
+#policyStoring {
+    height: 100%;
+    margin-bottom: .25em;
+}
+
+#policyStoringBody {
+    padding: .5em;
+}
+
+#policyStoringBody > h4 {
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#statsDisplayLeft {
+    padding-right: 0px;
+}
+
+#statsPanelBodyLeft {
+    height: 262px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#statsDisplayRight {
+    padding-left: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+#statsPanelBodyRight {
+    height: 525px;
+    margin-bottom: 0px;
+}
+
+/* Media query */
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+#target {
+    width: 345px;
+}
+
+#dis_save {
+    text-align: left;
+}
+
+#piechart {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    margin: .5em 0 .5em 0;
+}
+
+#weatherOverlay {
+    margin-left: 1em;
+}
+
+#myModal{
+    text-align: center;
+
+}
+
+#myModal .row{
+    margin: 0 .5em 0 .5em;
+
+}
+
+#error, #errorLogin {
+
+    font-size: 2em;
+    color: red;
+}
+
+#indexHeading{
+    float: left;
+    margin: 10px;
+}
+
+#name {
+    margin-bottom: 5px;
+}
+
+#nameHR {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#address {
+    margin-bottom: 0px;
+    line-height: 2;
+}
+
+#policyHolderDropDown{
+    width: 40%;
+    margin-bottom: .4em;
+}
+
+#floodInsurance {
+    width: 40%;
+    margin-bottom: .4em;
+    text-align: left;
+}
+
+#policyHolderText{
+    width: 40%;
+    text-align: left;
+}
+
+#policyHolderHeading{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+#logo{
+    margin-top: 1em;
+    text-align: center;
+}

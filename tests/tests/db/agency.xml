@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <Agency id="1" name="Auto-Owners" address="1400 Abbot Rd #320" city="East Lansing" state="MI" zipCode="48823"/>
+    <Agency id="2" name="Vertafore" address="1500 Abbot Rd #100" city="East Lansing" state="MI" zipCode="48823"/>
+</dataset>

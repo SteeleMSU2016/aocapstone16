@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <Policy id="1" PH_ID="1" A_ID="1" coverageStart="2016-02-17 00:00:00" coverageStop="2016-02-17 00:00:00" policyType="0"/>
+    <Policy id="2" PH_ID="1" A_ID="1" coverageStart="2016-02-17 00:00:00" coverageStop="2016-02-17 00:00:00" policyType="0"/>
+    <Policy id="3" PH_ID="2" A_ID="1" coverageStart="2016-02-17 00:00:00" coverageStop="2016-02-17 00:00:00" policyType="0"/>
+    <Policy id="4" PH_ID="2" A_ID="2" coverageStart="2016-02-17 00:00:00" coverageStop="2016-02-17 00:00:00" policyType="1"/>
+</dataset>

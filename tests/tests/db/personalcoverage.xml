@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <PersonalCoverage name="PersonalCoverage1" Prop_ID="3" amount="100" deductAmount="3"/>
+    <PersonalCoverage name="Personalcoverage2" Prop_ID="2" amount="1000" deductAmount="10"/>
+</dataset>

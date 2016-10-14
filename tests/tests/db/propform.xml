@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <PropForms name="ThisOne" Prop_ID="1"/>
+    <PropForms name="ThatOne" Prop_ID="2"/>
+</dataset>

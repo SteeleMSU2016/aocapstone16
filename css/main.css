@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 27, 2016, 10:59:19 AM
+    Author     : cse498
+*/
+
+body, header, article, footer{
+
+    text-align: center;
+}
+
+.pageDisplay, .headerDisplay {
+    margin: auto;
+}
+
+
+.header_content{
+    margin: 1em 1em 1em 1em;
+    background-color: white;
+}
+
+.header_nav {
+    padding-top: 2em;
+}
+
+
+
+#map
+{
+
+    height:800px;
+    width: 950px;
+    background-color: #CCC;
+    border: solid thin;
+}
+
+.map_content {
+    height: 800px;
+}
+
+ .map_content1 {
+     margin-left: 1em;
+     height: 800px;
+}
+
+ .map_content2 {
+     margin-left: 1em;
+     marign-right: 1em;
+     height: 800px;
+ }
+
+
+.policy_content {
+    margin: 0 1em 0 1em;
+
+}
+
+.policy_content, .policy_content1, .policy_content2, .policy_content3, .policy_content4 {
+
+    height: 800px;
+
+}
+
+.policy_content3, .policy_content4, .policy_content5 {
+    border: solid thin;
+}
+
+.policy_content3 {
+    overflow: auto ;
+}
+
+
+
+/* Set gray background color and 100% height */
+.sidenav {
+
+    padding: 1em ;
+    background-color: cornflowerblue;
+    border: solid thin;
+    overflow: auto ;
+    height: 100%;
+}
+
+
+
+
+.text-left .policy_name, .text-right .policy_count{
+    padding-top: 1em;
+    background-color: deepskyblue;
+    height: 100%;
+}
+
+
+
+
+.graphs {
+    border: solid;
+    height: 100%;
+}
+
+
+
+.pie_chart {
+    border: solid;
+    height: 100%;
+}
+
+.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}
+.checkboxes {
+    margin-left: 1em;
+}
+.box{
+    height: 1em;
+    margin-bottom: 1em;
+}
+.box1,.box2,.box3,.box4  {
+    //margin-bottom: 1em;
+    border: solid thin;
+    height: 1em;
+    width: 1em;
+}
+.boxTitle1,.boxTitle2,.boxTitle3,.boxTitle4  {
+    margin-left: 1em ;
+    height: 1em;
+}
+.box1{
+     background: blue;
+ }
+.box2{
+    background: red;
+}
+.box3 {
+    background: orange;
+}
+.box4 {
+    background: green;
+}
+
+.box1, .boxTitle1{
+    display: inline-block;
+}
+.box2, .boxTitle2{
+    display: inline-block;
+}
+.box3, .boxTitle3 {
+    display: inline-block;
+}
+.box4, .boxTitle4 {
+    display: inline-block;
+}
+
+.overlayTime {
+    margin: 1em 0 1em 0;
+}
+
+.disasters {
+    text-align: center;
+    border: thin solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.disasters p{
+    padding: 1em;
+    margin: 0;
+    font-size: 1.5em;
+
+}
+#new {
+    background: dodgerblue;
+    color: white;
+}
+#new a {
+    color: white;
+}

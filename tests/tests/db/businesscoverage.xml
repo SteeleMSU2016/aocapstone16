@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <BusinessCoverage name="CoverageA" Prop_ID="1" Blgd_ID="1" amount="100" deductAmount="10"/>
+    <BusinessCoverage name="CoverageB" Prop_ID="1" Blgd_ID="2" amount="1200" deductAmount="1"/>
+</dataset>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <DisasterDataset D_ID="1" P_ID="1"/>
+    <DisasterDataset D_ID="1" P_ID="2"/>
+    <DisasterDataset D_ID="2" P_ID="3"/>
+</dataset>

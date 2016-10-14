@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <PersonalClaim id="1" P_ID="1" Prop_ID="2" D_ID="1" contentDamage="1" dwellingDamage="1" otherDamage="0" floodInsurance="1" floodInsurer="Auto-Owners" notes="Major structural damage due to tornado"/>
+    <PersonalClaim id="2" P_ID="3" Prop_ID="3" D_ID="2" contentDamage="0" dwellingDamage="1" otherDamage="1" floodInsurance="0" floodInsurer="" notes="Hail damaged roof"/>
+</dataset>

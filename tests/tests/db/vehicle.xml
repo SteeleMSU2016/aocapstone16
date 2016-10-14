@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <Vehicle id="1" P_ID="4" make="Chevrolet" model="Curze" year="2016" vinNumber="12345678987654321"/>
+</dataset>

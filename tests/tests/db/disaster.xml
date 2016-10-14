@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <Disaster id="1" name="Tornado" date="2016-02-17 00:00:00" city="East Lansing" state="MI"/>
+    <Disaster id="2" name="Hail Storm" date="2016-02-17 00:00:00" city="East Lansing" state="MI"/>
+</dataset>

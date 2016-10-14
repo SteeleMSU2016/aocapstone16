@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <Property id="1" P_ID="1" address="234 Wilson Rd." propType="0" city="East Lansing" state="MI" zipCode="48825"/>
+    <Property id="2" P_ID="1" address="31 Middlevale Rd." propType="1" city="East Lansing" state="MI" zipCode="48823"/>
+    <Property id="3" P_ID="3" address="1071 Marigold Ave." propType="1" city="East Lansing" state="MI" zipCode="48825"/>
+</dataset>
